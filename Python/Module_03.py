@@ -1,5 +1,10 @@
 """
-1.Python has built-in data types, which can be broadly classified into two types:
+1.What is a Data Type?
+ans:A data type tells Python what kind of value a variable is holding and what operations can be done on it.
+In simple words:
+Data type = type of data stored in a variable
+
+2.Python has built-in data types, which can be broadly classified into two types:
 
 A.Primitive Data Types,Primitive data types store single, simple values.
 Example:
@@ -52,5 +57,16 @@ marks = [80, 85, 90]
 days = ("Mon", "Tue", "Wed")
 
 #3. set - Stores unique values
+#example:
+numbers = {1, 2, 3}
+
+#4. dict (Dictionary) - Stores data in key-value pairs
+#example:
+student = {
+    "name": "Ali", 
+    "age": 18
+    }
+
+
 
 
