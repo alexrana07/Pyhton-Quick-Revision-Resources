@@ -1,95 +1,45 @@
 """
-1.What is Type Casting?
-ans:Type casting is the process of converting one data type into another data type in a program manually.
+1.What is input in Python?
+ans:input() is a built-in function in Python used to take input from the user.
+example:
+name = input("Enter your name: ")
+print("Hello", name)
 
-In simple words:
-Type casting means changing the type of data from one form to another.
+2.What is Type Casting in Python?
+ans:Type casting means converting one data type into another.
+Done manually by the programmer
+Happens explicitly
+Uses built-in functions
 
-2.Why Do We Need Type Casting?
-We need type casting when:
-We want to perform operations on different data types
-We need data in a specific format
-We want correct results in calculations
+example:
+age = input("Enter age: ")   # string
+age = int(age)              # string → integer
 
-3.Real-Life Example 
+3.What is Type Conversion?
+ans:Type conversion is the process in which Python automatically converts one data type into another when needed.
+Done automatically
+No programmer involvement
+Also called implicit conversion
 
-Think of water:
-Water can be ice, liquid, or steam
-Same substance, different forms
+example:
+x = 10      # int
+y = 2.5     # float
+z = x + y   # int is automatically converted to float
 
-Similarly:
-Data can be integer, float, or string
-Same value, different data types
-
-4.What is type-Conversion?
-ans:Type conversion is the process of changing one data type into another. 
-It can be automatic when the system converts the data type by itself,
-which is called implicit type conversion, 
-or manual when the programmer converts it explicitly.
-
-Example: Integer to Float
-a = 10      # int
-b = 2.5     # float
-c = a + b
-print(c)
-
-Output:
-12.5
-
-Explanation:
-a is integer
-b is float
-Computer converts a to float automatically
-
-Result is float
-
-Important Note:
-
-This will NOT work automatically:
-
-a = "10"
-b = 5
-print(a + b)
-Because string cannot be automatically converted to integer.
 """
 
-#Type Casting Functions:
+# input
+name = input("Enter your name: ")
+print("Hello", name)
 
-#1. int() – Convert to Integer
-#Example:
-x = 10.7
-y = int(x)
-print(y)
+#type casting
+age = input("Enter age: ")   # string
+age = int(age)              # string → integer
 
-#Output: 10
-#Converts float to integer (decimal part removed)
+#type conversion
+x = 10      # int
+y = 2.5     # float
+z = x + y   # int is automatically converted to float
 
-#2. float() – Convert to Float
-#Example:
-a = 5
-b = float(a)
-print(b)
 
-#Output:5.0
-#Converts integer to float
-
-#3. str() – Convert to String
-#Example:
-age = 18
-print("Age is " + str(age))
-
-#Output: Age is 18
-#Converts number to string
-
-#4.bool() – Convert to Boolean
-#Example:
-print(bool(1))
-print(bool(0))
-
-#Output:
-True
-False
-
-#1 → True
-#0 → False
 
