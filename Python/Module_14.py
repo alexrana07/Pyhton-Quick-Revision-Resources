@@ -1,5 +1,5 @@
 """
-8. What is a while Loop?
+1. What is a while Loop?
 ans:A while loop runs as long as a condition is True.
 Best when the number of iterations is not known.
 """
@@ -29,3 +29,4 @@ while True:
     print("Hello")
 
 #Runs forever unless stopped manually.
+
